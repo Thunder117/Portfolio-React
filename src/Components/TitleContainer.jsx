@@ -27,10 +27,10 @@ const TitleContainer = (props) => {
     }, []);
 
     return (
-        <div className="title-container" ref={containerRef}>
+        <div className="title-container" ref={containerRef} id={props.id}>
             <div className="title">
-                <small>{props.subtitle}</small>
-                <h1>{props.title}</h1>
+                <small className="text">{props.subtitle}</small>
+                <h1 className="text">{props.title}</h1>
                 <div className={`${isVisible ? `longer ${props.color}` : `bar ${props.color}`}`}/>
             </div>
         </div>

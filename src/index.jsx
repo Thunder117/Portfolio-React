@@ -13,6 +13,7 @@ import Pdf from './ChristopherResume.pdf';
 import Logos from './Components/Logos';
 import Nav from './Components/Nav';
 import ButtonsContainer from './Components/ButtonsContainer';
+import BentoContainer from './Components/BentoContainer';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -31,22 +32,25 @@ root.render(
 					<Button link="#home" color="white">Home</Button>
 					<Button link="#skills" color="white">Skills</Button>
 					<Button link="#projects" color="white">Projects</Button>
-					<Button link="#contact-me" color="black">Contact</Button>
+					<Button link="#contact-me" color="black">Contact Me</Button>
 				</ul>
 			</div>
 		</Nav>
 		<SquircleContainer id="home">
 			<SquircleBlue>
-				<h2>Hi I'm</h2>
+				<small>Hi I'm</small>
 				<h1 className='contact-row'>Christopher Logan Hernandez</h1>
 				<p>I'm a Full-Stack Developer based in Edmonton, passionate about building engaging games and 
 					intuitive web and mobile apps. I enjoy working with tools like React, React Native, Express/Node.js, 
 					and Unity, and I'm always exploring new frameworks to push my projects further. I'm currently refining 
 					my personal projects and expanding my cloud computing skills with AWS.</p>
 					<ButtonsContainer>
-						<Button color="black">View Resume</Button>
-						<Button color="white">Contact Me</Button>
+						<Button link={Pdf} color="black">View Resume</Button>
+						<Button link="#contact-me" color="white">Contact Me</Button>
 					</ButtonsContainer>
+					<a href="https://github.com/Thunder117">
+						<img src="./imgs/github.png" alt="GitHub" width="48" />
+					</a>
 			</SquircleBlue>	
 		</SquircleContainer>
 		<Logos/>
@@ -93,7 +97,8 @@ root.render(
 			</SquircleOrange>
 		</SquircleContainer>
 		<TitleContainer subtitle="Some of my" title="Projects" color="blue" id="projects"/>
-		<TitleContainer subtitle="Feel free to" title="Contact Me"/>
+		<BentoContainer/>
+		<TitleContainer subtitle="Feel free to" title="Contact Me" id="contact-me"/>
 		<InfoContainer>
 			<div className="contact-row">
 				<img 
