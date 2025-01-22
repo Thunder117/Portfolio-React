@@ -87,8 +87,8 @@ root.render(
 			</SquircleBlue>
 			<SquircleOrange>
 				<h2>A bit about me...</h2>
-				<p> As a Full-Stack Developer, I specialize in building engaging games and intuitive web and mobile 
-					applications using technologies like React, React Native, Express/Node.js, and Unity. 
+				<p> As a Full-Stack Developer, I specialize in building intuitive web and mobile 
+					applications using technologies like React, React Native, and Express/Node.js. 
 					I’ve developed a full-featured book club web app and a personal portfolio site, both showcasing 
 					my ability to create responsive, user-focused designs. </p>
 				<p>My work also includes integrating secure authentication, managing databases with MongoDB, and 
