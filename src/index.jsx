@@ -28,12 +28,11 @@ root.render(
 				<a href="#home">Christopher Logan Hernandez</a>
 			</div>
 			<div className="nav-sub">
-				<ul>
 					<Button link="#home" color="white">Home</Button>
 					<Button link="#skills" color="white">Skills</Button>
 					<Button link="#projects" color="white">Projects</Button>
 					<Button link="#contact-me" color="black">Contact Me</Button>
-				</ul>
+				
 			</div>
 		</Nav>
 		<SquircleContainer id="home">
