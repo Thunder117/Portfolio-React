@@ -199,7 +199,7 @@ h2 {
     gap:10px;
     @media (max-width: 768px) {
         h2{
-            font-size: larger;
+            font-size: large;
         }
     }
     .contact {
