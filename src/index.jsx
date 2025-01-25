@@ -99,7 +99,7 @@ root.render(
 		<BentoContainer/>
 		<TitleContainer subtitle="Feel free to" title="Contact Me" id="contact-me"/>
 		<InfoContainer>
-			<div className="contact-row">
+			<div className="contact">
 				<img 
 					src="./imgs/phone.png" 
 					alt="" 
@@ -107,7 +107,7 @@ root.render(
 				/>
 				<h2>(250) 858 9453</h2>
 			</div>
-			<div className="contact-row">
+			<div className="contact">
 				<img 
 					src="./imgs/email.png" 
 					alt="" 
