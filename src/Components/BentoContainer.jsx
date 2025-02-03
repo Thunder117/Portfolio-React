@@ -133,7 +133,7 @@ const details = {
         `
         <b>Technologies Used:</b>
         <ul>
-            <li><b>Frontend:</b> HTML5.</li>
+            <li><b>Frontend:</b> React, HTML5, JSX.</li>
             <li><b>Backend:</b> JavaScript (ES6+).</li>
             <li><b>Styling and UI:</b> CSS3 with animations for a smooth user experience.</li>
             <li><b>Deployment:</b> Hosted using Netlify.</li>
