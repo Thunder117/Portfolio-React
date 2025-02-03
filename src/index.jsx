@@ -18,7 +18,6 @@ import BentoContainer from './Components/BentoContainer';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
 	<div>
-		{/*
 		<Nav>
 			<div className="nav-sub">
 				<img 
@@ -35,7 +34,7 @@ root.render(
 					<Button link="#contact-me" color="black">Contact Me</Button>
 				
 			</div>
-		</Nav>*/}
+		</Nav>
 		<SquircleContainer id="home">
 			<SquircleBlue>
 				<small>Hi I'm</small>
